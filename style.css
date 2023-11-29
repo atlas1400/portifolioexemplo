@@ -1,0 +1,188 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#healer{
+    font-family: poppins ;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    text-decoration-line: underline;
+    color: #070F18;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#menu{
+    text-align:right ;
+    margin-top: 49px;
+}
+
+
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: poppins ;
+}
+a{
+    color: black;
+    text-decoration:none;
+}
+#butttoncta{
+    background: #1f7cff;
+    border-radius: 50px;
+    font-family: poppins;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10PX 25PX;
+}
+#headercta p {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+}
+#headercta h1{
+    font-style: normal;
+    font-weight:bold;
+    font-size: 45px;
+    line-height: 82px;
+    color: black;
+}
+#headerimg{
+    margin-left: 42px;
+}
+
+#headerimg img{
+    width: 100%;
+}
+
+.logo{
+    text-align: center;
+}
+
+#cliente{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#headercliente{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24
+    px;
+    color: black;
+}
+
+h2.red {
+    font-family: poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #F75C4E;
+}
+
+h1.black{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 54px;
+    margin-top: 0;
+    color: #000;
+}
+
+.textcenter{
+    text-align: center;
+}
+
+#services .textcenter h3{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #070F18;
+
+}
+#services .textcenter p{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    color: #575455;
+}
+#contactimg{
+    width: 100%;
+}
+
+#contactform{
+    margin-left: 75px;
+    text-align: left;
+}
+#contact{
+    margin-top: 100px;
+}
+#gray{
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    color: #575455;
+}
+
+#contactform input{
+    background: #F5F6FB;
+    border-radius: 50px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #575455;
+    border: 0;
+    width: 75%;
+    padding: 15px 30px 15px 30px;
+}
+
+#contactform button{
+    background: #1F7CFF;
+    border-radius: 50px;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 15px 30px 15px 30px;
+    border: 0;
+}
+
+#portfolio{
+    margin-top: 150px;
+}
+
+.portifolioimg{
+    width: 100%;
+    padding: 20px;
+}
